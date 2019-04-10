@@ -13,3 +13,7 @@ For now data are being saved locally in a berkleydb key-value file for each clie
 *netstat_ui.py* is a PoC HTTP server that displays the network-map build by the aggregator. A stronger line is used based on how many connections have been detected in the period.  
 **TODO:** so much
 
+Notes: 
+- excited to found someone who had same idea as me about utilizing netstat as a source of information on server hierarcy. While this solution is client - server oriented, I think towards agentless (a.k.a. pull) realization, when there is an ssh connection from server to client, information gathering and fetch process, with further accumulation it on server. After that it can be visualized;
+- read that graphviz can visualize arbitrary data : https://www.linuxquestions.org/questions/linux-networking-3/build-graphical-network-map-from-netstat-output-710199/
+
